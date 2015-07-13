@@ -1,6 +1,6 @@
 [![Libe](http://msrv.su/files/libe.png)](https://github.com/mirrr/libe) 
 
-Small solution for easy nodejs libraries connection
+Small solution for easy node libs inclusions
     
     
 ## How To Install   
