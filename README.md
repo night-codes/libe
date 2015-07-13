@@ -48,7 +48,7 @@ exports.func = function () {
     
 
 ## What else?
-Initialize your modules! So simple. You need to add `exports.init` method into your library. Like this:
+Initialize your modules! So simple. Just add `exports.init` method to your library. Like this:
 
 
 **lib/my.js:**    
@@ -76,7 +76,7 @@ exports.func = function () {
 
 ```
 
-Then you need to call `libe.init`:    
+Then add `libe.init` to your main file:    
 
 **index.js:**    
 ```js
@@ -87,6 +87,8 @@ libe.init(function () {
     my.func();
 });
 ```
+    
+That's all!    
 
 ## Change directory path
 ```js
